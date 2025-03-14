@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.2.3",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.10",
+    "@vee-validate/rules": "^4.5.11",
+    "axios": "^1.4.0",
+    "h3": "^1.6.2",
+    "pinia": "^2.0.36",
+    "swiper": "^9.3.0",
+    "vee-validate": "^4.5.11",
+    "vue-ctk-date-time-picker": "^3.0.0-alpha.0",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue3-carousel-nuxt": "^1.1.0",
+    "vue3-tags-input": "^1.0.12",
+    "yup": "^0.32.11"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}

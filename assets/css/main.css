@@ -1,0 +1,39 @@
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/vazir-font-v16.1.0/Vazir-Light.woff") format("woff");
+
+}
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    src: url("../fonts/barlow/Roboto-Italic.ttf") format("ttf");
+
+    font-size: larger;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+ body{
+    direction: ltr;
+    font-family:Roboto;
+
+ }
+
+.hero {
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+form {
+    direction: ltr;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: white;
+  }
