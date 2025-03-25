@@ -1,7 +1,10 @@
 import axios from "axios";
 
 export default defineNuxtPlugin((nuxtApp) => {
-  const defaultUrl = "http://192.168.1.106:6060/api/";
+    // const defaultUrl = "http://192.168.1.106:6060/api/";
+    const defaultUrl = "http://eventbackend-001-site1.anytempurl.com/api";
+
+
 
   let savedBaseUrl;
   if (typeof window !== "undefined") {
