@@ -126,7 +126,7 @@
                                 <label for="startDate" class="pr-1 text-gray-700 text-sm">Address</label>
                                 <IconsStar />
                             </div>
-                            <input type="text" id="startDate" placeholder="Qom, IAU" v-model="vebinarObject.Address"
+                            <input type="text" id="startDate" placeholder="USA, LA" v-model="vebinarObject.Address"
                                 class="w-full border border-gray-300 p-2 rounded-md outline-none focus:border-emerald-200 focus:shadow-md duration-300">
                         </div>
                         <div class="w-full">

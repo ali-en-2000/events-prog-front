@@ -26,8 +26,7 @@
                                     Carts
                                 </NuxtLink>
                                 <NuxtLink to="/user/changePermision" @click="useStore().showPopup = false"
-                                    class="block px-4 py-2 m-0 text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200 cursor-pointer border-b border-gray-200"
-                                    >
+                                    class="block px-4 py-2 m-0 text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200 cursor-pointer border-b border-gray-200">
                                     change permision
                                 </NuxtLink>
 
@@ -121,21 +120,16 @@
         </div>
     </header>
 </template>
-  
+
 <script setup>
-const axios = useNuxtApp().$axios
 import { useStore } from "~~/stores";
 
 const search = ref('')
 var bgColor = ref(false)
-var showmodal = ref(false)
 
-onMounted(() => {
-    showmodal.value = false
-})
 
 async function logout() {
-    localStorage.removeItem('token');
+    useStore().logout()
     await navigateTo('/login')
 }
 
@@ -143,7 +137,7 @@ async function handelSearch() {
     useStore().searchValue = search.value
 }
 </script>
-  
+
 <style scoped>
 .flexbase {
     display: flex;

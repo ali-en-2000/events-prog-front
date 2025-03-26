@@ -41,6 +41,11 @@ const formValues = reactive({
   PassError: '',
 })
 
+onMounted(() => {
+    useStore().hideLayout()
+})
+
+
 async function handleSubmit() {
   var error = 0
   if (formValues.userName === "") {

@@ -1,6 +1,6 @@
 <template>
     <div v-if="!props.loader">
-        <SkeletonLoader :type="data.type" :item-count="data.itemCount" />
+        <SkeletonLoader :type="data.type" :item-count="3" />
     </div>
     <div v-else class="py-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         <div v-for="item, index in props.items" :key="index"

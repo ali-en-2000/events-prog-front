@@ -98,8 +98,9 @@ onMounted(async () => {
     getSlider()
     getAll(selectedCategory.value)
     getBestSeller()
-    getFavorit()
-
+    getFavorit()    
+    useStore().checkAuth()   
+    useStore().showLayout()
 
     const res = await axios.get('Category/GetAllCategory');
     filter.items = res.data.map((category: any) => {
