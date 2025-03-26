@@ -49,19 +49,19 @@ onMounted(() => {
 async function handleSubmit() {
   var error = 0
   if (formValues.userName === "") {
-    formValues.userNameError = "فیلد نام کاربری را پر کنید"
+    formValues.userNameError = "Please enter your username"
     error++
   } else {
     formValues.userNameError = ""
   }
   if (formValues.password === "") {
-    formValues.PassError = "فیلد رمز عبور را پر کنید";
+    formValues.PassError = "Please enter your password"
     error++
   } else if (formValues.password.length < 6) {
-    formValues.PassError = "حداقل 6 کاراکتر وارد کنید";
+    formValues.PassError = "Enter at least 6 characters"
     error++
   } else {
-    formValues.PassError = "";
+    formValues.PassError = ""
   }
 
   if (error == 0) {

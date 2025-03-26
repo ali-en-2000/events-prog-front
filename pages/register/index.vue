@@ -60,37 +60,37 @@ function handleSubmit() {
 async function checkForm() {
     var error = 0
     if (formValues.UserName === "") {
-        formValues.UserNameError = "فیلد نام را پر کنید"
+        formValues.UserNameError = "Please enter your name"
         error++
     } else {
         formValues.UserNameError = ""
     }
 
     if (formValues.Email === "") {
-        formValues.EmailError = "فیلد ایمیل را پر کنید"
+        formValues.EmailError = "Please enter your email"
         error++
     } else if (!validateEmail(formValues.Email)) {
-        formValues.EmailError = "فیلد ایمیل به درستی وارد نشده است"
+        formValues.EmailError = "Invalid email format"
         error++
     } else {
         formValues.EmailError = ""
     }
 
     if (formValues.Password === "") {
-        formValues.passError = "فیلد رمز عبور را پر کنید";
+        formValues.passError = "Please enter your password"
         error++
     } else if (formValues.Password.length < 6) {
-        formValues.passError = "حداقل 6 کاراکتر وارد کنید";
+        formValues.passError = "Enter at least 6 characters"
         error++
     } else {
-        formValues.passError = "";
+        formValues.passError = ""
     }
 
     if (formValues.confirmPassword === "") {
-        formValues.confirmError = "فیلد تایید رمز عبور را پر کنید";
+        formValues.confirmError = "Please confirm your password"
         error++
     } else if (formValues.confirmPassword !== formValues.Password) {
-        formValues.confirmError = "عدم تطابق پسورد";
+        formValues.confirmError = "Passwords do not match"
         error++
     } else {
         formValues.confirmError = "";
