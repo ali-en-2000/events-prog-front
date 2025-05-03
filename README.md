@@ -22,12 +22,12 @@ pnpm install
 
 ## Preview
 
-[present.webm](https://github.com/ali-en-2000/events-prog-front/releases/download/0.0.1/main.mp4)
+[present.webm](https://streamable.com/9str1s)
 
 
 ## Responsive Preview
 
-[present.webm](https://github.com/ali-en-2000/events-prog-front/releases/download/0.0.1/responsive.mp4)
+[present.webm](https://streamable.com/beq3tl)
 
 
 
