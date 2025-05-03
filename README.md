@@ -20,6 +20,17 @@ npm install
 pnpm install
 ```
 
+## Preview
+
+[present.webm](https://github.com/ali-en-2000/events-prog-front/assets/videos/main.mp4)
+
+
+## Responsive Preview
+
+[present.webm](https://github.com/ali-en-2000/events-prog-front/assets/videos/responsive.mp4)
+
+
+
 ## Development Server
 
 Start the development server on http://localhost:3000
@@ -43,3 +54,4 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
