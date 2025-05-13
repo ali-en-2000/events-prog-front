@@ -1,4 +1,8 @@
 
+## Preview
+
+[present.webm](https://github.com/user-attachments/assets/466224b6-a967-4b7c-880a-5795337a0ea6)
+
 demo : https://events-prog-front.vercel.app/
 
 # Nuxt 3 Minimal Starter
@@ -19,17 +23,6 @@ npm install
 # pnpm
 pnpm install
 ```
-
-## Preview
-
-[present.webm](https://streamable.com/9str1s)
-
-
-## Responsive Preview
-
-[present.webm](https://streamable.com/beq3tl)
-
-
 
 ## Development Server
 
